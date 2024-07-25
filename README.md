@@ -66,6 +66,7 @@ mkdir trinity_out
 TRINITY_DIR=/home/fran/opt/trinityrnaseq-Trinity-v2.8.4
 DATPATH=$HOME/grupo5/tarea3/normalization_reads
 $TRINITY_DIR/Trinity --seqType fq --no_normalize_reads --left $DATPATH/left.norm.fq --right $DATPATH/right.norm.fq --SS_lib_type RF --max_memory 2G --CPU 2 --output ./trinity_out
+```
 
 ## Results
 
